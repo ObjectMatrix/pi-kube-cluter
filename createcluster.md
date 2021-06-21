@@ -20,4 +20,8 @@
       + microk8s kubectl config set-context --current --namespace=object-matrix-ns
  + Create or Delete a namespace
       + microk8s kubectl create ns object-matrix-ns
-      + microk8s kubectl delete ns object-matrix-ns     
+      + microk8s kubectl delete ns object-matrix-ns   
+
+  + cluster info and context
+      + microk8s kubectl cluster-info
+      + microk8s kubectl config get-contexts      
