@@ -16,6 +16,8 @@
  + Now let’s focus on creating the Kubernetes cluster. On the initial node, run:
       + microk8s add-node       
 
+ + rename default namespace
+      + microk8s kubectl config set-context --current --namespace=object-matrix-ns
  + Create or Delete a namespace
       + microk8s kubectl create ns object-matrix-ns
       + microk8s kubectl delete ns object-matrix-ns     
