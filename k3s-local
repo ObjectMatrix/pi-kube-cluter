@@ -1,1 +1,8 @@
-# K3S Local
+# Kubernetes cluster locally with K3s and Multipass and K3sup (aka ketchup)
+
+## Install 
+  - multipass to create VMs
+  - k3sup to install k3s over ssh
+  
+## Instruction for creating master (for local create a single master, no HA) and agents  
+  - https://medium.com/@yankee.exe/setting-up-multi-node-kubernetes-cluster-with-k3s-and-multipass-d4efed47fed5  
